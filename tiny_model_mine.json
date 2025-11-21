@@ -1,0 +1,17 @@
+{
+  "unigrams": {
+    "<unk>": 130
+  },
+  "bigrams": {
+    "<s>\t<unk>": 16,
+    "<unk>\t<unk>": 114,
+    "<unk>\t</s>": 16
+  },
+  "trigrams": {
+    "<s>\t<s>\t<unk>": 16,
+    "<s>\t<unk>\t<unk>": 16,
+    "<unk>\t<unk>\t<unk>": 98,
+    "<unk>\t<unk>\t</s>": 16,
+    "<unk>\t</s>\t</s>": 16
+  }
+}
