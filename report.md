@@ -30,7 +30,7 @@ The random people can tell my code is not written by LLM. The evidence from most
 However, there are several functions containing "read_utterances", "map_oov", "load_model", "p_unigram", "p_bigram", "p_trigram", "compute_ppl" to evaluate the model. Therefore, we find that the size of each module in my code is larger than one in chatgpt code.
 
 ## Should computing assignments like assignment 3 be given for marks?
-The assginment 3 can still be given for marks since LLM can have the error in generating the code. Therefore, the students cannot be completely dependent on LLM without checking the error. The evidence from training.md and report.md can support my conclusion.
+The assginment 3 can still be given for marks since LLM can have the error in generating the code. Therefore, the students cannot be completely dependent on LLM without checking the error. The evidence from architecture.md, style.md, most_similar.md, most_dissimilar.md, training.md, and evaluation.md can support my conclusion.
 
 (1) Based on the evidence from Correctness part, we can find that chatgpt code has errors in handling begin and end of sentence tokens across models, computing perplexity ('inf' may be the results of evaluating). This means LLM cannot finish the task without any human's debugging. 
 
