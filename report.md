@@ -23,11 +23,14 @@ My code's style is better than LLM's. The evidence from style.md, architecture.m
 ## Similarity
 The random people can tell my code is not written by LLM. The evidence from most_similar.md and most_dissmilar.md, architecture.md can support my conclusion. 
 (1) In most_similar.md, we can see that in my code, there is only one function "train_model" to train the model.However, there are several functions containing "read_utterances", build_vocab, replace_singletons_with_unk, count_ngrams, convert_to_json, create_model_json to train the model. Therefore, we find that the size of each module in my code is larger than one in chatgpt code.
+
 (2) In most_dissmilar.md, in my code, there is only one function "evaluate_model" to evaluate the model.
 However, there are several functions containing "read_utterances", "map_oov", "load_model", "p_unigram", "p_bigram", "p_trigram", "compute_ppl" to evaluate the model. Therefore, we find that the size of each module in my code is larger than one in chatgpt code.
 
 ## Should computing assignments like assignment 3 be given for marks?
 The assginment 3 can still be given for marks since LLM can have the error in generating the code. Therefore, the students cannot be completely dependent on LLM without checking the error. The evidence from training.md and report.md can support my conclusion.
 (1) Based on the evidence from Correctness part, we can find that chatgpt code has errors in handling begin and end of sentence tokens across models, computing perplexity ('inf' may be the results of evaluating). This means LLM cannot finish the task without any human's debugging. 
+
 (2) Based on the evidence from Style part, we can find that chatgpt code doesn't print additional information of comments, print statements and the perplexity results for human to have a better understanding.
+
 (3) Based on the evidence from similarity,  we can find that the size of each module in my code is larger than one in chatgpt code.
